@@ -1,0 +1,10 @@
+{
+    "listen": {
+        "port": 3000,
+        "host": "localhost"
+    },
+    "allowedHosts": ["127.0.0.1"],
+    "wg": {
+    	"configFile": "/etc/wireguard/wg0.conf"
+    }
+}
