@@ -1,4 +1,3 @@
-![logo](https://github.com/alectrocute/wg-api/blob/master/icon.png)
 
 wg-api is an API endpoint for a Wireguard® VPN server. It allows you to make HTTP GET requests with JSON responses, enabling you to create & revoke peers (eg. clients), access QR/plaintext/JSON config files and receive realtime server info.
 
@@ -11,7 +10,7 @@ It's still a baby project but I plan on building it out into a full-featured RES
 Use a fresh Ubuntu 18.* install with up-to-date apt dependencies, with Node and NPM installed and Wireguard uninstalled.
 ```bash
 apt-get install nodejs npm -y
-git clone https://github.com/alectrocute/wg-api
+git clone https://github.com/Magdiel1985/wg-api
 cd wg-api
 npm install fastify fastify-static chalk ini
 cd ./scripts/bash
